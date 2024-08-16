@@ -1,0 +1,122 @@
+:root{
+    /*custom defs*/
+    --black: #757575;
+    --red: #825d4d;
+    --green: #728c62;
+    --yellow: #ada16d;
+    --blue: #4d7b82;
+    --purple: #8a7267;
+    --cyan: #729494;
+    --white: #e0e0e0;
+    --brightBlack: #8a8a8a;
+    --brightRed: #cf937a;
+    --brightGreen: #98d9aa;
+    --brightYellow: #fae79d;
+    --brightBlue: #7ac3cf;
+    --brightPurple: #d6b2a1;
+    --brightCyan: #ade0e0;
+    --brightWhite: #e0e0e0;
+    --_foreground: #e0e0e0;
+    --_background: #233435;
+    
+    /*Discord colour defs*/
+    --brand-500: var(--cyan);
+    --brand-560: var(--brightCyan);
+    --green-360: var(--brightGreen);
+    --white: var(--_foreground);
+    
+    
+    --background-primary: #243435;
+    --background-secondary: #203031;
+    --background-secondary-alt: #182829;
+    --background-tertiary: #162627;
+    --background-floating: #000;
+    
+    --button-positive-background: var(--green);
+    --button-positive-background-hover: var(--brightGreen);
+    --button-danger-background: var(--red);
+    --button-danger-background-hover: var(--brightRed);
+    --button-outline-danger-border: var(--red);
+    --button-outline-danger-background-hover: var(--red);
+    --button-outline-danger-border-hover: var(--brightRed);
+    
+    --input-background: var(--background-secondary-alt);
+    
+    --text-normal: #e0e0e0;
+    --text-muted: var(--brightBlack);
+    --text-link: var(--brightBlue);
+    
+    --control-brand-foreground: var(--blue);
+    --interactive-normal: var(--_foreground);
+    --channeltextarea-background: var(--background-secondary-alt);
+    }
+    
+    /*top navbar mainpage*/
+    .container_fc4f04{
+    --__header-bar-background: #243435 !important;
+    }
+    
+    /**/
+    .headerBar_d8354c{
+    background-color: #203031 !important;
+    }
+    /*selected dm bar items*/
+    .selected_f5eb4b{
+    background-color: var(--background-secondary-alt);
+    }
+    /*Nitro loading fix*/
+    .applicationStore_cecc86{
+    background-color: var(--background-primary);
+    }
+    /*status icons*/
+    rect[mask*="online"]{
+    fill:var(--brightGreen);
+    }
+    rect[mask*="idle"]{
+    fill:var(--brightYellow);
+    }
+    rect[mask*="dnd"]{
+    fill:var(--brightRed);
+    }
+    rect[mask*="offline"]{
+    fill:var(--brightBlack);
+    }
+    rect[mask*="streaming"]{
+    fill:var(--purple);
+    }
+    
+    foreignObject[mask*="online"] .status_c7d26b{
+    background-color: var(--brightGreen) !important;
+    }
+    foreignObject[mask*="idle"] .status_c7d26b{
+    background-color: var(--brightYellow) !important;
+    }
+    foreignObject[mask*="dnd"] .status_c7d26b{
+    background-color: var(--brightRed) !important;
+    }
+    foreignObject[mask*="offline"] .status_c7d26b{
+    background-color: var(--brightBlack) !important;
+    }
+    foreignObject[mask*="streaming"] .status_c7d26b{
+    background-color: var(--purple) !important;
+    }
+    
+    /*user popouts*/
+    .biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b{
+    background-color: #182829;
+    }
+    .userPopoutInner_c69a7b.userProfileInner_c69a7b.biteSizeInnerThemed_c69a7b{
+    background-color: #182829;
+    }
+    
+    /*slider*/
+    .container_cebd1c{
+    background-color: var(--black) !important;
+    }
+    .container_cebd1c.checked_cebd1c{
+    background-color: var(--green) !important;
+    }
+    /*dropdown*/
+    .popout_f6639d{
+    background-color: #162627;
+}
